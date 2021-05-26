@@ -40,7 +40,7 @@ summary(dados[c("radius_mean", "area_mean", "smoothness_mean")])
 
 # Funcão de normalização
 normalizacao <- function(x){
-  return((x - min(x))/(max(x) - min(x)))
+  return((x - min(x)) / (max(x) - min(x)))
 }
 
 # Normalização dos dados
